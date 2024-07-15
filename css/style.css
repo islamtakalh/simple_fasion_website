@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+body{
+    height: 7000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.pag1{
+    width: 100%;
+    height: 100vh;
+    position: relative;}
+.divh{
+    margin-top: auto;
+    width: 100%;
+    height: 50px;
+    background: -webkit-linear-gradient(left,rgb(5, 5, 105),purple);
+    position: fixed;
+    z-index: 10;
+    opacity: 0.7;}
+.divhblog{
+    width: 100px;
+    height: 50px;
+    background-color:white;
+    margin: 50px 0px 0px 1310px;
+    visibility: hidden;}
+.h2head{
+   font-size: 20;
+   color: purple;
+   text-align: center;
+   padding-top: 10px;}
+.img1{
+    height: 50px;
+    margin-left: 100px;
+    float: left;
+    border-radius:20px ;}
+.ls1 li{
+    display: inline-block;
+    margin-right: 25px;
+    color: white;
+    font-size: 21px;}
+.ls1{
+    list-style: none;
+    float: right;
+    margin-right: 100px;}
+.ls1 li a{
+    text-decoration:none ;
+    color: white;}
+.ls1:hover +div{
+     visibility: visible;}
+.div1{
+    width: 100%;
+    height: 1000px;
+    background: url(../images/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg) no-repeat center fixed;
+    background-size: cover;
+    position: absolute;}
+.h2main,.h2main2{
+    color: white;
+    text-align: center;}
+.h2main{
+    font-size: xxx-large;
+    margin-top: 300px;}
+.h2main2{
+    font-size:large;}
+.button2,.button3{
+    border: none;
+    text-align: center;
+    float: left;
+    width: 150px;
+    height:70px ;
+    font-size: large;
+    border-radius:5px ;}
+.button2{
+    color: black;
+    margin: 20px 20px 0px 650px;}
+.button2:hover{
+    background-color: gray;}
+.button3:hover{
+    background-color: darkblue;}
+.button3{
+    color:white;
+    background-color: blue;
+    margin-top:20px;}
+.pag2{
+    width: 100%;
+    height: 90vh;
+    background: -webkit-linear-gradient(top,pink,lightslategray,white);
+    position: relative;}
+.div21,.div22,.div23{
+    width:400px ;
+    height: 250px;
+    background-color:antiquewhite;
+    border: 2px solid black;
+    float: left;
+    position: relative;
+    text-align: center;}
+.h2main3,.h2main4,.h2main5,.pag5-h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top:100px ;}
+.div21{
+    margin: 90px 50px 0px 140px;}
+.div22{
+    margin-top: 90px;}
+.div23{
+    margin: 90px 0px 0px 50px;}
+.pag2-p1{
+    color: black;
+    margin: auto;
+    font-size: 21px;
+    margin: 20px 0px 10px 0px;}
+#pag2-icon{
+    font-size: 35px;
+    color: blue;
+    margin: 25px 0px 20px 0px;}
+.pag2-a{
+    font-size: 20px;
+    text-decoration-line: none;
+    color: blue;}
+.pag3{
+    width: 100%;
+    height: 170vh;
+    background: -webkit-linear-gradient(top,white,pink,lightslategray);
+    position: relative;}
+.div31{
+     background: url(../images/download\ \(1\).jfif) no-repeat center;}
+.div32{
+     background: url(../images/download\ \(2\).jfif) no-repeat center; }
+.div33{
+    background: url(../images/download\ \(3\).jfif) no-repeat center; }
+.div34{
+    background: url(../images/download\ \(5\).jfif) no-repeat center; }
+.div35{
+    background: url(../images/download\ \(7\).jfif) no-repeat center; }
+.div36{
+ background: url(../images/download\ \(8\).jfif) no-repeat center;}
+.div31,.div32,.div33,.div34,.div35,.div36{
+    width:350px ;
+    height:400px ;
+    float: left;
+    background-size: cover;
+    position: relative;}
+.div31,.div34{
+    margin: 90px 100px 0px 170px;}
+.div32,.div35{
+    margin: 90px 100px 0px 0px;}
+.div33,.div36{
+    margin: 90px 0px 0px 0px;}
+.pag3-cont{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin: 150px 75px 0px 77px ;
+    visibility: hidden;}
+.pag4{
+    width: 100%;
+    height: 100vh;
+    background: -webkit-linear-gradient(top,lightslategray,white,pink);
+    position: relative;}
+.div41,.div42,.div43,.div44,.div45,.div46{
+    width:400px ;
+    height:200px ;
+    border:2px solid black;
+    background-color:antiquewhite;
+    background-size: cover;
+    float: left;
+    position: relative;}
+.div41,.div44{
+    margin: 90px 50px -50px 150px;}
+.div42,.div45{
+    margin: 90px 50px -50px 0px;}
+.div43,.div46{
+    margin: 90px 0px -50px 0px;}
+.pmain2{
+    width: 90px;
+    height: 4px;
+    background-color: blue;
+    margin: auto;}
+.pag5{
+    width: 100%;
+    height: 80vh;
+    background: -webkit-linear-gradient(top,pink,lightslategray,white);}
+.pag5-par{
+    width: 40%;
+    height: 100%;
+    background: -webkit-linear-gradient(top,pink,lightslategray,white);
+    margin-left: 150px;
+    float: left;}
+.pag5-pm{
+    margin-top: 50px;
+    margin-bottom: 30px;}
+.pag5-ls{
+    list-style: none;}
+.pag5-p1{
+    display: inline-block;
+    margin-bottom: 10px;}
+.pag5-img{
+    width: 25%;
+    height: 70%;
+    background: url(../images/download\ -\ Copy.jfif) no-repeat center;
+    background-size: cover;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;}
+.pag5-img-circle{
+    width: 70px;
+    margin: 440px 0px 0px 240px;}
+#c1{
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    color:lightslategrey;}
+#c1:hover{
+    color: blue;}
+.pag5-pm,.pag5-p1{
+    font-size: large;
+    color: black;}
+#p1{
+    font-size: 18px;
+    color: blue;}
+.pag6,.pag8,.pag11{
+    width: 100%;
+    height: 50vh;
+    background-color: lightblue;}
+.pag6,.pag8{
+    background:url(../images/beautiful-places-Hasnae.com_.5.jpg) no-repeat center;
+    background-size:cover;}
+.pag6-contaner{
+    height: 100vh;
+    width: 70%;
+    margin: auto;}
+.pag6-contaner-div1,.pag6-contaner-div2,.pag6-contaner-div3,.pag6-contaner-div4{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    float: left;
+    margin-top: 140px;}
+.pag6-contaner-div1,.pag6-contaner-div2,.pag6-contaner-div3{
+    margin-right: 236px;}
+.pag7{
+    width: 100%;
+    height: 90vh;
+    background: -webkit-linear-gradient(top,white,lightblue);}
+.pag7-div1,.pag7-div2,.pag7-div3{
+    width: 25%;
+    height: 50%;
+    text-align: center;
+    border: 2px solid gray;
+    float: left;
+    position: relative;
+    background-color: white;
+    margin: 70px 0px 0px 60px;}
+.pag7-div1{
+    margin-left: 145px;}
+.pag7-div1-price{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin: auto;
+    border: 2px solid grey;
+    margin-bottom:20px ;
+    text-align: center;}
+.pag7-p1{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;}
+.pag7-p2{
+    font-size: 18px;
+    margin-top: 5px; }
+.pag7-div1-btn{
+    width: 30%;
+    height: 8%;
+    margin-top: 30px;
+    border: 2PX solid blue;
+    background-color: white;}
+.pag8{
+    background: url(../images/صور-بحر-وشواطئ-HD-اجمل-خلفيات-بحار-وشواطئ-في-العالم-2.jpg) no-repeat center;
+    background-size: cover;}
+.pag8-cont{
+    width: 70%;
+    height:100%;
+    margin: auto;}
+.pag8-div1{
+    width: 45%;
+    height: 50%;
+    float: left;
+    margin-top: 120px;
+    margin-left: 5%;}
+.pag8-div1-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: 2px solid grey;
+    float: left;
+    margin-right: 15px;
+    margin-top: 20px;
+    background: url(../images/download\ \(10\).jfif) no-repeat center;
+    background-size: cover;}
+.pag9{
+    width: 100%;
+    height: 70vh;
+    background: -webkit-linear-gradient(top,white,lightblue);}
+.pag9-div1,.pag9-div2,.pag9-div3{
+    width:350px ;
+    height: 300px;
+    background-color:rgb(238, 206, 211);
+    float: left;
+    text-align: center;
+    position: relative;}
+.pag9-div1{
+    margin: 70px 100px 0px 170px;}
+.pag9-div2{
+    margin-top: 70px;}
+.pag9-div3{
+     margin: 70px 0px 0px 100px;}
+.pag9-div1-par{
+    margin-top: 10px;}
+.pag9-div1-img{
+    background: url(../images/download\ \(10\).jfif) no-repeat center;}
+.pag9-div2-img{
+    background: url(../images/download\ \(11\).jfif) no-repeat center;}
+.pag9-div3-img{
+    background: url(../images/افتار\ رمضان.jfif) no-repeat center;}
+.pag9-div1-img,.pag9-div2-img,.pag9-div3-img{
+    width: 80%;
+    height: 25vh;
+    background-size: cover;
+    margin:auto;
+    position: relative;}
+.pag9-div1-img-contentar{
+    width: 30px;
+    height: 15vh;
+    position: absolute;
+    background-color:lightblue;
+    margin-left: 89.5%;
+    z-index: 2;
+    visibility: hidden;}
+.pag9-div1:hover .pag9-div1-img-contentar,.pag9-div2:hover .pag9-div1-img-contentar,.pag9-div3:hover .pag9-div1-img-contentar{
+visibility: visible;}
+.pag9-div1:hover .pag9-div1-img,.pag9-div2:hover .pag9-div2-img,.pag9-div3:hover .pag9-div3-img{
+    background-color: black;
+    opacity: 0.5;
+    visibility:visible;}
+.pag10{
+    width: 100%;
+    height: 80vh;
+    background: -webkit-linear-gradient(top,lightblue,white);}
+.pag10-parent{
+    width: 80%;
+    height: 100%;
+    margin: auto;}
+.pag10-parent-div1,.pag10-parent-div2,.pag10-parent-div3{
+    width: 30%;
+    height: 76%;
+    float: left;
+    margin:50px 63px 0px 0px;
+    position: relative;}
+.pag10-parent-div3{
+        margin-right: 0px;}
+.pag10-parent-div1-img{
+    width: 60%;
+    height: 60%;
+    background-color: aliceblue;
+    margin-left: 30px;}
+.pag10-parent-div1-img1{
+    width: 100%;
+    height: 80%;
+    background:url(../images/download\ \(9\).jfif) no-repeat center;
+    background-size: cover;}
+.pag10-parent-div1-img-icon{
+    width: 100%;
+    height: 10%;
+    margin-top: 25px;}
+.pag10-par{
+    width: 80%;
+    height: 50%;
+    margin-top: 10px;
+    margin-left: 30px;}
+.pag10-p{
+    font-size: 18;
+    margin-top: 20px;
+    margin-bottom: 30px;}
+.pag11-parent{
+    height: 100%;
+    width: 30%;
+    margin: auto;}
+.pag11-parent-img{
+    width: 40%;
+    height: 30%;
+    background: url(../images/693462-zlrn3-1588314800-5eabc2b083b97.jpg) no-repeat center;
+    background-size: cover;
+    float: left;
+    background-color: pink;
+    opacity: 0.7;
+    visibility:visible;
+    margin:100px  0px 0px 140px;}
+.pag11-parent-icon{
+    width: 90%;
+    height: 30%;
+    float: left;
+    margin:20px  10px 10px 5%;}
+.pag11-parent-icon1{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: pink;
+    float: left;
+    text-align: center;}
+#pag4-icon{
+    display: inline;
+    float: left;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 20px;
+    color: blue;}
+.pag4-h2{
+    margin-top: 30px;}
+.pag4-p1{
+    font-size: 19px;
+    text-align: left;}
+.div21:hover .pag2-h2,.div22:hover .pag2-h2,.div23:hover .pag2-h2{
+    color: white;}
+.div41:hover .pag4-h2,.div42:hover .pag4-h2,.div43:hover .pag4-h2,.div44:hover .pag4-h2,.div45:hover .pag4-h2,.div46:hover .pag4-h2{
+    color: white;}
+.pag7-div1:hover .pag7-p1,.pag7-div2:hover .pag7-p1,.pag7-div3:hover .pag7-p1{
+    color: red;}
+.pag7-div1:hover .pag7-div1-price .pag7-p2,.pag7-div2:hover .pag7-div1-price .pag7-p2,.pag7-div3:hover .pag7-div1-price .pag7-p2{
+    color: red;}
+.pag9-div1:hover .pag9-h2,.pag9-div2:hover .pag9-h2,.pag9-div3:hover .pag9-h2{
+   color:white ;}
+.pag9-div1:hover .pag9-p1,.pag9-div2:hover .pag9-p1,.pag9-div3:hover .pag9-p1{
+    color:blue ;}
+ .pag9-div1::after,.pag9-div2::after,.pag9-div3::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: grey;
+    opacity: 0;}
+ .pag9-div1:hover::after,.pag9-div2:hover::after,.pag9-div3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;}
+ .pag10-parent-div1::after,.pag10-parent-div2::after,.pag10-parent-div3::after,.pag7-div1::after,.pag7-div2::after,.pag7-div3::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:pink;
+    opacity: 0;}
+ .pag10-parent-div1:hover::after,.pag10-parent-div2:hover::after,.pag10-parent-div3:hover::after,.pag7-div1:hover::after,.pag7-div2:hover::after,.pag7-div3:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 2s;}
+ .div41::after,.div42::after,.div43::after,.div44::after,.div45::after,.div46::after,.div21::after,.div22::after,.div23::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgb(7, 0, 7);
+    opacity: 0;}
+ .div41:hover::after,.div42:hover::after,.div43:hover::after,.div44:hover::after,.div45:hover::after,.div46:hover::after,.div21:hover::after,.div22:hover::after,.div23:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    transition: 1s;}
+ .div31::after,.div32::after,.div33::after,.div34::after,.div35::after,.div36::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:black;
+    opacity: 0;}
+ .div31:hover::after,.div32:hover::after,.div33:hover::after,.div34:hover::after,.div35:hover::after,.div36:hover::after{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    opacity: 0.5;}
+ .div31:hover .pag3-cont,.div32:hover .pag3-cont,.div33:hover .pag3-cont,.div34:hover .pag3-cont,.div35:hover .pag3-cont,.div36:hover .pag3-cont{
+    visibility: visible;}
+
+
+
+
+
